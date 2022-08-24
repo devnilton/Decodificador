@@ -1,0 +1,121 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+}
+
+
+body {
+    background-color: #E5E5E5;
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+main {
+    position: relative;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 10%;
+} 
+
+
+.input-texto {
+    margin-top: 90px;
+    border-radius: 10px;
+}
+
+.mensagem {
+    position: fixed;
+    margin-top: 25px;
+    margin-left: 70px;
+    background-image: url("img/boneco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border-radius: 10px;
+
+}
+
+.copiar {
+    position: relative;
+    margin-top: 380px;
+    margin-left: 190px;
+    background-color: #ff725e;
+    color:white;
+    border-radius: 10px;
+}
+
+
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: #ff725e;
+    color:white;
+    border-radius: 10px;
+}
+
+.desencriptar {
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.informacao {
+    font-size: 20px;
+    background-color: #ff725e;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 10px;
+   
+}
+.cabecalho{
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    margin: 1em 1em;
+}
+.rodape__texto {
+    margin: 1em 0;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.rodape {
+    margin-top: 800px;
+    text-align: center;
+    margin: 5em 3em;
+}
+
+
+.encriptar:hover{
+    background-color: lightgreen;
+    color: #455a64;
+    transform: scale(1.1);
+    transition: all 150ms ease-in;
+}
+.desencriptar:hover{
+    background-color: lightgreen;
+    color: #455a64;
+    transform: scale(1.1);
+    transition: all 150ms ease-in;
+}
+
+.encriptar:active{
+    background-color: rgb(245, 74, 74);
+    color: #ffffff;
+    transform: scale(0.9);
+    transition: all 200ms ease-in;
+}
+.desencriptar:active{
+    background-color: rgb(245, 74, 74);
+    color: #ffffff;
+    transform: scale(0.9);
+    transition: all 200ms ease-in;
+}
